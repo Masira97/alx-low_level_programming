@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *Main - Print the string in the put funtion
+ *Main - Entry point
  *
  *Description:Using the main function
  *this program prints "Programming is like building a multilingual puzzle"
