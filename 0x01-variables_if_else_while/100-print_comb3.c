@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints numbers between 00 to 99.
+ * main - prints numbers between 00 to 89.
  *
  * Return: Always 0 (Success)
  */
