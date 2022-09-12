@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints numbers between 00 to 89.
+ * main - prints numbers between 00 to 99.
  *
  * Return: Always 0 (Success)
  */
@@ -9,17 +9,17 @@ int main(void)
 {
 	int i, e;
 
-	i = 48;
-	e = 48;
+	i = 38;
+	e = 38;
 
-	while (e < 58)
+	while (e < 48)
 	{
-		i = 48;
-		while (i < 58)
+		i = 38;
+		while (i < 48)
 		{
 			putchar(e);
 			putchar(i);
-			if (i == 57 && e == 57)
+			if (i == 47 && e == 47)
 			{
 				break;
 			}
