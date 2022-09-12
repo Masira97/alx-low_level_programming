@@ -9,9 +9,9 @@ int main(void)
 {
 		int i, e, g;
 
-		i = 48
-		e = 48
-		g = 48
+		i = 48;
+		e = 48;
+		g = 48;
 
 		while (e <58)
 		{
