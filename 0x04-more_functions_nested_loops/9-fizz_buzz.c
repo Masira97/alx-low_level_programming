@@ -2,10 +2,11 @@
 
 /**
  * main - program that prints either number
- * or fizz or buzz or fizzBuzz
+ * or fizz or buzz or fizzBuz
  *
  * Return: returns 0
  */
+
 int main(void)
 {
 	int num = 1;
@@ -28,11 +29,15 @@ int main(void)
 			}
 			else
 			{
-				printf("%d ", num);
+				printf("Buzz");
 			}
 		}
-		printf("\n");
-
-		return (0);
+		else
+		{
+			printf("%d ", num);
+		}
 	}
+	printf("\n");
+
+	return (0);
 }
