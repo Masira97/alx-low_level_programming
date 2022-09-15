@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * print_number - prints an integer.
- * @n: input integer.
- * Return: no return.
+ * print_number - Prints a number
+ * @n: The number to print
  */
+
 void print_number(int n)
 {
 	unsigned int num = n;
