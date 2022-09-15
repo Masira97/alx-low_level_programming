@@ -1,13 +1,11 @@
 #include <stdio.h>
 
 /**
- *main - program that prints either number
+ * main - program that prints either number
+ * or fizz or buzz or fizzBuzz
  *
- *or fizz or buzz or fizzBuzz
- *
- *Return: returns 0
+ * Return: returns 0
  */
-
 int main(void)
 {
 	int num = 1;
@@ -30,15 +28,11 @@ int main(void)
 			}
 			else
 			{
-				printf("Buzz");
+				printf("%d ", num);
 			}
 		}
-		else
-		{
-			printf("%d ", num);
-		}
-	}
-	printf("\n");
+		printf("\n");
 
-	return (0);
+		return (0);
+	}
 }
