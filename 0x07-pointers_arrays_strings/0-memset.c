@@ -2,7 +2,7 @@
 
 /**
  * _memset - function fills the first n bytes of the memory area pointed
- * to by s with the constant byte b
+ *  to by s with the constant byte @b
  * Returns a pointer to the memory area s
  * @s: a pointer to the memory area to be filled
  * @b: char to be used
@@ -12,12 +12,13 @@
  * Return: pointer to the memory area @s
  */
 
-char *_memset(char *s, char b, unsigned int n)
+void *_memset(void *s, int b, size_t n) 
 {
-	while (n)
-	{
-		s[n - 1] = b;
-		n--;
-	}
-	return (s);
+	unsigned int index;
+	unsigned char *memory = s, value = b;
+
+	for (index = 0; index < n; index++)
+		 memory[index] = value;
+
+	 return (memory);
 }
