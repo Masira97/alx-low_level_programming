@@ -1,7 +1,7 @@
 #ifndef _LISTS_
 #define _LISTS_
 
-#include <stdlib>
+#include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 
@@ -12,6 +12,7 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
+ *	for project
  */
 typedef struct list_s
 {
